@@ -1,0 +1,48 @@
+.navMenuSection {
+  width: 100%;
+  background: #fff;
+  box-shadow: 0 10px 100px rgb(0 0 0 / 10%);
+}
+
+.navMenuContainer {
+  padding-top: 60px;
+  width: 100%;
+  height: 100%;
+  animation: fadeInTop 0.7s;
+}
+
+.menuList {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.listItemContainer {
+  width: 100%;
+  text-align: right;
+}
+
+.listItemContainer a {
+  display: block;
+  text-decoration: none;
+  padding: 2.5rem 3rem;
+  font-size: 1.1rem;
+  color: #000;
+  text-align: right;
+  border-bottom: 1px solid #eee;
+  font-weight: 700;
+  letter-spacing: 2px;
+  transition: color 0.3s;
+}
+
+@keyframes fadeInTop {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
