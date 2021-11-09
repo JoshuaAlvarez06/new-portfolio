@@ -19,13 +19,23 @@ const Contact = () => {
               <label htmlFor="name" className="formLabel">
                 Name
               </label>
-              <input type="text" name="name" className="formInput" />
+              <input
+                type="text"
+                name="name"
+                placeholder="Enter name"
+                className="formInput"
+              />
             </div>
             <div className="formSection">
               <label htmlFor="email" className="formLabel">
                 Email
               </label>
-              <input type="email" name="email" className="formInput" />
+              <input
+                type="email"
+                name="email"
+                placeholder="Enter email"
+                className="formInput"
+              />
             </div>
             <div className="formSection">
               <label htmlFor="message" className="formLabel">
@@ -35,6 +45,7 @@ const Contact = () => {
                 type="text"
                 name="message"
                 className="formInput"
+                placeholder="Enter message"
                 rows="6"
               />
             </div>
