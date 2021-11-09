@@ -16,7 +16,7 @@ export const projects = [
     name: `Coder's Spot`,
     image: codersspot,
     description:
-      'Developed a full-stack application from scratch in which users can blog. Created the entire frontend, backend, and the database with a larger focus on the backend. Implemented reusable components and a fully functional API that can perform CRUD operations. Built with: Node.js, Express.js, PostgreSQL, React, JavaScript, CSS',
+      'Developed a full-stack application from scratch in which users can blog. Created the entire frontend, backend, and the database with a larger focus on the backend. Implemented reusable components and a fully functional API that can perform CRUD operations. Incorporated authentication using Auth0 and performed conditional rendering depending on if user is authenticated or not. Built with: Node.js, Express.js, PostgreSQL, React, JavaScript, CSS',
     live: 'https://codersspot.netlify.app/',
     repo: 'https://github.com/JoshuaAlvarez06/blog-project',
   },
