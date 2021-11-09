@@ -26,7 +26,7 @@ const Projects = () => {
                 <h3 className="contentHeading">{proj.name}</h3>
                 <p>{proj.description}</p>
                 <a
-                  className="projectBtn"
+                  className="projectBtn btn"
                   href={proj.live}
                   target="_blank"
                   rel="noreferrer"
@@ -34,7 +34,7 @@ const Projects = () => {
                   LIVE
                 </a>
                 <a
-                  className="projectBtn"
+                  className="projectBtn btn"
                   href={proj.repo}
                   target="_blank"
                   rel="noreferrer"

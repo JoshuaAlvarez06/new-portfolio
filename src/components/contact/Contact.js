@@ -49,7 +49,7 @@ const Contact = () => {
                 rows="6"
               />
             </div>
-            <button className="submitBtn" type="submit">
+            <button className="submitBtn btn" type="submit">
               SEND
             </button>
           </form>

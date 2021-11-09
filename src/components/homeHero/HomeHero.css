@@ -63,6 +63,10 @@
   color: inherit;
 }
 
+.heroSocial a i:hover {
+  transform: scale(1.1);
+}
+
 .scrollDown {
   position: absolute;
   top: 90%;
