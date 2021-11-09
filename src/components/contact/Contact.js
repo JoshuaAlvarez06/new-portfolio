@@ -2,19 +2,6 @@ import React from 'react';
 import './Contact.css';
 
 const Contact = () => {
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    let myForm = document.getElementById('contactForm');
-    let formData = new FormData(myForm);
-    fetch('/', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-      body: new URLSearchParams(formData).toString(),
-    })
-      .then(() => console.log('Form successfully submitted'))
-      .catch((error) => alert(error));
-  };
-
   return (
     <section id="contact" className="contactSection">
       <div className="contactContainer">
@@ -28,13 +15,13 @@ const Contact = () => {
         <div className="contactForm">
           <form
             id="contactForm"
-            name="contact"
+            name="contact v1"
             netlify
             method="POST"
             data-netlify="true"
-            onSubmit={handleSubmit}
+            onSubmit="submit"
           >
-            <input type="hidden" name="form-name" value="contact" />
+            <input type="hidden" name="form-name" value="contact v1" />
             <div className="formSection">
               <label htmlFor="name" className="formLabel">
                 Name
