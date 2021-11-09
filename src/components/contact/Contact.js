@@ -13,15 +13,8 @@ const Contact = () => {
           </p>
         </div>
         <div className="contactForm">
-          <form
-            id="contactForm"
-            name="contact v1"
-            netlify
-            method="post"
-            data-netlify="true"
-            onSubmit="submit"
-          >
-            <input type="hidden" name="form-name" value="contact v1" />
+          <form id="contactForm" name="contact" method="post">
+            <input type="hidden" name="form-name" value="contact" />
             <div className="formSection">
               <label htmlFor="name" className="formLabel">
                 Name
