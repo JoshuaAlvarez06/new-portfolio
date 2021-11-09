@@ -1,7 +1,7 @@
-import codersspot from '../images/codersspot.png';
-import lashempress from '../images/lashempress.png';
-import welovemovies from '../images/WeLoveMovies.png';
-import companysite from '../images/companysite.png';
+import codersspot from '../images/codersspot.jpeg';
+import lashempress from '../images/lashempress.jpeg';
+import welovemovies from '../images/WeLoveMovies.jpeg';
+import companysite from '../images/companysite.jpeg';
 
 export const projects = [
   {
