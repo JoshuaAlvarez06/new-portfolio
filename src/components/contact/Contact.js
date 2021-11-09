@@ -17,7 +17,7 @@ const Contact = () => {
             id="contactForm"
             name="contact v1"
             netlify
-            method="POST"
+            method="post"
             data-netlify="true"
             onSubmit="submit"
           >
