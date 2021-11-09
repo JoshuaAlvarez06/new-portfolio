@@ -1,14 +1,16 @@
 .navMenuSection {
-  width: 100%;
+  width: 100vw;
   background: #fff;
-  box-shadow: 0 10px 100px rgb(0 0 0 / 10%);
+  box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  z-index: 999;
 }
 
 .navMenuContainer {
-  padding-top: 60px;
+  padding-top: 90px;
   width: 100%;
   height: 100%;
-  animation: fadeInTop 0.7s;
+  animation: fadeInTop 1s;
 }
 
 .menuList {
@@ -36,6 +38,10 @@
   font-weight: 700;
   letter-spacing: 2px;
   transition: color 0.3s;
+}
+
+.listItemContainer a:hover {
+  color: #6187cc;
 }
 
 @keyframes fadeInTop {

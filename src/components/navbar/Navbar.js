@@ -10,7 +10,10 @@ const Navbar = ({ visible, setVisible }) => {
       <div className="navContainer">
         <div className="logoContainer">
           <h1>
-            <i className="fas fa-laptop-code fa-xs"></i>Joshua Alvarez
+            <i className="fas fa-laptop-code fa-xs"></i>
+            <Link to="/" onClick={() => window.scrollTo(0, 0)}>
+              JOSHUA ALVAREZ
+            </Link>
           </h1>
         </div>
 
@@ -24,16 +27,45 @@ const Navbar = ({ visible, setVisible }) => {
           </div>
           <ul className="menuItems">
             <li className="menuItem">
-              <Link to="/">Home</Link>
+              <Link to="/" onClick={() => window.scrollTo(0, 0)}>
+                Home
+              </Link>
             </li>
             <li className="menuItem">
-              <Link to="/#about">About</Link>
+              <Link
+                to="/#about"
+                onClick={() => {
+                  document.getElementById('about').scrollIntoView({
+                    behavior: 'smooth',
+                  });
+                }}
+              >
+                About
+              </Link>
             </li>
             <li className="menuItem">
-              <Link to="/#projects">Projects</Link>
+              <Link
+                to="/#projects"
+                onClick={() => {
+                  document.getElementById('projects').scrollIntoView({
+                    behavior: 'smooth',
+                  });
+                }}
+              >
+                Projects
+              </Link>
             </li>
             <li className="menuItem">
-              <Link to="/#contact">Contact</Link>
+              <Link
+                to="/#contact"
+                onClick={() => {
+                  document.getElementById('contact').scrollIntoView({
+                    behavior: 'smooth',
+                  });
+                }}
+              >
+                Contact
+              </Link>
             </li>
           </ul>
         </div>

@@ -8,16 +8,45 @@ const NavMenu = ({ setVisible }) => {
       <div className="navMenuContainer">
         <div className="menuList">
           <div className="listItemContainer" onClick={() => setVisible(false)}>
-            <Link to="/">HOME</Link>
+            <Link to="/" onClick={() => window.scrollTo(0, 0)}>
+              HOME
+            </Link>
           </div>
           <div className="listItemContainer" onClick={() => setVisible(false)}>
-            <Link to="/#about">ABOUT</Link>
+            <Link
+              to="/#about"
+              onClick={() => {
+                document.getElementById('about').scrollIntoView({
+                  behavior: 'smooth',
+                });
+              }}
+            >
+              ABOUT
+            </Link>
           </div>
           <div className="listItemContainer" onClick={() => setVisible(false)}>
-            <Link to="/#projects">PROJECTS</Link>
+            <Link
+              to="/#projects"
+              onClick={() => {
+                document.getElementById('projects').scrollIntoView({
+                  behavior: 'smooth',
+                });
+              }}
+            >
+              PROJECTS
+            </Link>
           </div>
           <div className="listItemContainer" onClick={() => setVisible(false)}>
-            <Link to="/#contact">CONTACT</Link>
+            <Link
+              to="/#contact"
+              onClick={() => {
+                document.getElementById('contact').scrollIntoView({
+                  behavior: 'smooth',
+                });
+              }}
+            >
+              CONTACT
+            </Link>
           </div>
         </div>
       </div>

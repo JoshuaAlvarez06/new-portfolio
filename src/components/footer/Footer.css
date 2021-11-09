@@ -1,0 +1,31 @@
+.footerSection {
+  padding: 8rem 10rem;
+  background: #000;
+  color: #fff;
+}
+
+.footerContainer {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+.footerSocials {
+  display: flex;
+  align-items: center;
+}
+
+.footerSocials i {
+  font-size: 2rem;
+  margin-right: 1.2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .footerSection {
+    padding: 5rem 1.75rem;
+  }
+
+  .footerContainer {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}

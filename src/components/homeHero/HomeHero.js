@@ -1,16 +1,24 @@
 import React from 'react';
 import './HomeHero.css';
 import { Link } from 'react-router-dom';
-import { motion } from 'framer-motion';
 
 const HomeHero = () => {
   return (
     <section className="heroSection">
       <div className="heroContainer">
-        <motion.h1 className="heroHeading">Hey, I'm Joshua Alvarez</motion.h1>
+        <h1 className="heroHeading">Hey, I'm Joshua Alvarez</h1>
         <div className="heroInfo">
           <p>A full-stack web developer who loves what he does</p>
-          <Link to="/#projects">PROJECTS</Link>
+          <Link
+            to="/#projects"
+            onClick={() => {
+              document.getElementById('projects').scrollIntoView({
+                behavior: 'smooth',
+              });
+            }}
+          >
+            PROJECTS
+          </Link>
         </div>
         <div className="heroSocials">
           <div className="heroSocial">
@@ -38,7 +46,15 @@ const HomeHero = () => {
           </div>
         </div>
         <div>
-          <Link to="/#about" className="scrollDown">
+          <Link
+            to="/#about"
+            className="scrollDown"
+            onClick={() => {
+              document.getElementById('about').scrollIntoView({
+                behavior: 'smooth',
+              });
+            }}
+          >
             <p>Scroll Down</p>
             <i className="fas fa-chevron-down downArrow"></i>
           </Link>

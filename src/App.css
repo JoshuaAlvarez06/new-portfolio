@@ -7,15 +7,21 @@
 
 html {
   scroll-behavior: smooth;
+  height: 100%;
 }
 
+html,
 body {
   box-sizing: border-box;
   position: relative;
   line-height: 1.5;
   overflow-x: hidden;
-  overflow-y: scroll;
+  overflow-y: initial;
   font-family: 'Source Sans Pro', sans-serif;
+}
+
+section {
+  width: 100vw;
 }
 
 @media screen and (max-width: 768px) {
