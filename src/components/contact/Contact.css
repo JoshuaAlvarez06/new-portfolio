@@ -80,6 +80,10 @@
   font-weight: 600;
 }
 
+textarea {
+  resize: none;
+}
+
 .submitBtn {
   display: inline-block;
   text-decoration: none;
