@@ -40,10 +40,6 @@
   transition: color 0.3s;
 }
 
-.listItemContainer a:hover {
-  color: #6187cc;
-}
-
 @keyframes fadeInTop {
   0% {
     opacity: 0;
