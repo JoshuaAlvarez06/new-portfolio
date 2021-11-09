@@ -20,14 +20,17 @@ const About = () => {
           <div className="aboutLeft" data-aos="fade-right">
             <h3 className="contentHeading">Get to know me</h3>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat
-              rem obcaecati earum molestias similique officiis temporibus
-              delectus voluptatibus possimus fuga?
+              I have been around technology all my life, and I have grown to
+              have a deep love for it. Since beginning to code, it has become my
+              passion. I, now, focus on full-stack development, focusing more on
+              front-end using mainly Javascript and the React library. I am a
+              very young, quick learner who is always looking to add more to my
+              set of knowledge.
             </p>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat
-              rem obcaecati earum molestias similique officiis temporibus
-              delectus voluptatibus possimus fuga?
+              As a 19 year old developer, I am excited to learn and add more to
+              my skill set every single day to become the best developer I can
+              be. Never stop learning!
             </p>
             <Link
               className="contactBtn"
