@@ -20,7 +20,7 @@ const Projects = () => {
           {projects.map((proj, index) => (
             <div className="project" key={index} data-aos="zoom-in">
               <div className="projectLeft">
-                <img src={proj.image} alt="" />
+                <img src={proj.image} alt={proj.name} />
               </div>
               <div className="projectRight">
                 <h3 className="contentHeading">{proj.name}</h3>
