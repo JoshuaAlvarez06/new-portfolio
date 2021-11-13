@@ -23,7 +23,7 @@ const HomeHero = () => {
         <div className="heroSocials">
           <div className="heroSocial">
             <a
-              href="https://github.com/joshuaalvarez06"
+              href="https://www.linkedin.com/in/joshuaalvarez06"
               target="_blank"
               rel="noreferrer"
             >
