@@ -1,5 +1,5 @@
-import React from 'react';
-import './Contact.css';
+import React from "react";
+import "./Contact.css";
 
 const Contact = () => {
   return (
@@ -23,6 +23,7 @@ const Contact = () => {
                 type="text"
                 name="name"
                 placeholder="Enter name"
+                required
                 className="formInput"
               />
             </div>
@@ -34,6 +35,7 @@ const Contact = () => {
                 type="email"
                 name="email"
                 placeholder="Enter email"
+                required
                 className="formInput"
               />
             </div>
@@ -46,6 +48,7 @@ const Contact = () => {
                 name="message"
                 className="formInput"
                 placeholder="Enter message"
+                required
                 rows="6"
               />
             </div>
