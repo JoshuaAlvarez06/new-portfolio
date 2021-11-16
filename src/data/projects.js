@@ -8,7 +8,7 @@ export const projects = [
     name: "Amazon Clone",
     image: amazonclone,
     description:
-      "Developed a full-stack desktop web application that resembles the Amazon website. Implemented user authentication, state management, and payment with Stripe. Used Firebase to implement additional functionality.",
+      "Developed a full-stack desktop web application that resembles the Amazon website. Implemented user authentication, state management, and payment with Stripe. Used Firebase to implement additional functionality. Test account can be found in GitHub Repo.",
     live: "https://clone-8b7a4.web.app/",
     repo: "https://github.com/JoshuaAlvarez06/amazon-clone",
   },
