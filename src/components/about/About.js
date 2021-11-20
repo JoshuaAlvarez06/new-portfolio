@@ -55,7 +55,8 @@ const About = () => {
               <div className='skill'>Express.js</div>
               <div className='skill'>PostgreSQL</div>
               <div className='skill'>Heroku</div>
-              <div className='skill'>TDD</div>
+              <div className='skill'>Bootstrap</div>
+              <div className='skill'>Tailwind</div>
             </div>
           </div>
         </div>
