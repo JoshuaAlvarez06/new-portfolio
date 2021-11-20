@@ -61,6 +61,7 @@
 
 .project img {
   width: 100%;
+  object-fit: contain;
   border-radius: 5px;
 }
 
@@ -76,15 +77,41 @@
   font-weight: 700;
   font-size: 1.2rem;
   margin-right: 2rem;
+  width: 8.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btnGroup {
+  display: flex;
+}
+
+.projectBtn:hover .notHidden {
+  display: none;
+}
+
+.projectBtn:hover .hidden {
+  display: inline-block;
+}
+
+.hidden {
+  display: none;
 }
 
 @media screen and (max-width: 768px) {
   .projectsSection {
     padding: 8rem 1.75rem;
   }
+}
 
+@media screen and (max-width: 1300px) {
   .project {
     grid-template-columns: 1fr;
     gap: 1rem;
+  }
+
+  .btnGroup {
+    flex-wrap: wrap;
   }
 }

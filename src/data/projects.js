@@ -13,6 +13,15 @@ export const projects = [
     repo: 'https://github.com/JoshuaAlvarez06/amazon-clone',
   },
   {
+    name: `Coder's Spot`,
+    image: codersspot,
+    description:
+      'Developed a full-stack application from scratch in which users can blog. Created the entire frontend, backend, and the database with a larger focus on the backend. Implemented a fully functional API that can perform CRUD operations. Implemented authentication using Auth0 and performed conditional rendering depending on if user is authenticated or not. Built with: Node.js, Express.js, PostgreSQL, React, JavaScript, CSS',
+    live: 'https://codersspot.netlify.app/',
+    repo: 'https://github.com/JoshuaAlvarez06/coders-spot-frontend.git',
+    repoTwo: 'https://github.com/JoshuaAlvarez06/coders-spot-backend.git',
+  },
+  {
     name: 'Lash Empress LA',
     image: lashempress,
     description:
@@ -20,14 +29,7 @@ export const projects = [
     live: 'https://lashempressla.netlify.app/',
     repo: 'https://github.com/JoshuaAlvarez06/lash-site',
   },
-  {
-    name: `Coder's Spot`,
-    image: codersspot,
-    description:
-      'Developed a full-stack application from scratch in which users can blog. Created the entire frontend, backend, and the database with a larger focus on the backend. Implemented reusable components and a fully functional API that can perform CRUD operations. Implemented authentication using Auth0 and performed conditional rendering depending on if user is authenticated or not. Built with: Node.js, Express.js, PostgreSQL, React, JavaScript, CSS',
-    live: 'https://codersspot.netlify.app/',
-    repo: 'https://github.com/JoshuaAlvarez06/blog-project',
-  },
+
   {
     name: 'WeLoveMovies',
     image: welovemovies,
