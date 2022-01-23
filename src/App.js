@@ -7,10 +7,11 @@ import Main from './components/main/Main';
 
 function App() {
   const [visible, setVisible] = React.useState(false);
+  
   return (
     <>
       <Navbar visible={visible} setVisible={setVisible} />
-      {visible && <NavMenu setVisible={setVisible} />}
+      <NavMenu visible={visible} setVisible={setVisible} />
       <Routes>
         <Route path="/" element={<Main />} />
       </Routes>

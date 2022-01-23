@@ -12,7 +12,7 @@ const Contact = () => {
             to you ASAP.
           </p>
         </div>
-        <div className="contactForm">
+        <div data-aos="zoom-in" className="contactForm">
           <form id="contactForm" name="contact" method="post">
             <input type="hidden" name="form-name" value="contact" />
             <div className="formSection">

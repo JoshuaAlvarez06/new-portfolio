@@ -47,16 +47,15 @@ const About = () => {
             <h3 className='contentHeading'>Skills</h3>
             <div className='skills'>
               <div className='skill'>React</div>
-              <div className='skill'>JavaScript</div>
+              <div className='skill'>Next.js</div>
+              <div className='skill'>JS / TS</div>
               <div className='skill'>HTML</div>
               <div className='skill'>CSS</div>
               <div className='skill'>Git</div>
               <div className='skill'>Node.js</div>
               <div className='skill'>Express.js</div>
               <div className='skill'>PostgreSQL</div>
-              <div className='skill'>Heroku</div>
-              <div className='skill'>Bootstrap</div>
-              <div className='skill'>Tailwind</div>
+              <div className='skill'>Email Dev.</div>
             </div>
           </div>
         </div>
