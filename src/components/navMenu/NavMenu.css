@@ -1,5 +1,5 @@
 .mobile-nav {
-  width: 75vw;
+  width: 312px;
   height: 100%;
   background: #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -9,6 +9,12 @@
   transform: translateX(75%);
   opacity: 0;
   transition: all 0.5s;
+}
+
+@media (max-width: 320px) {
+  .mobile-nav {
+    width: 80vw;
+  }
 }
 
 .visible {
@@ -45,12 +51,6 @@
   font-size: 1.6rem;
   height: 100%;
   padding-left: 10vw;
-}
-
-@media (min-width: 500px) {
-  .list-item {
-    font-size: 2rem;
-  }
 }
 
 .list-item:last-child {
