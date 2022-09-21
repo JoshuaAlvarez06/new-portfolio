@@ -20,6 +20,19 @@
       crossorigin="anonymous"
     />
     <title>Joshua Alvarez | Web Developer</title>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-SDQ1SLRXFG"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-SDQ1SLRXFG");
+    </script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
@@ -29,14 +42,5 @@
       <textarea name="message"></textarea>
     </form>
     <div id="root"></div>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-
-      gtag("config", process.env.REACT_APP_PUBLIC_GOOGLE_ANALYTICS);
-    </script>
   </body>
 </html>
