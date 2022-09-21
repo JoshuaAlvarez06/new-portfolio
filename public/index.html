@@ -29,5 +29,14 @@
       <textarea name="message"></textarea>
     </form>
     <div id="root"></div>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", process.env.REACT_APP_PUBLIC_GOOGLE_ANALYTICS);
+    </script>
   </body>
 </html>
