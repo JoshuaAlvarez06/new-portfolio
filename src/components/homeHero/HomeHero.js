@@ -1,6 +1,6 @@
-import React from 'react';
-import './HomeHero.css';
-import { Link } from 'react-router-dom';
+import React from "react";
+import "./HomeHero.css";
+import { Link } from "react-router-dom";
 
 const HomeHero = () => {
   return (
@@ -8,12 +8,12 @@ const HomeHero = () => {
       <div className="heroContainer">
         <h1 className="heroHeading">Hey, I'm Joshua Alvarez</h1>
         <div className="heroInfo">
-          <p>A full-stack web developer who loves what he does</p>
+          <p>A full-stack dev who loves what he does</p>
           <Link
             to="/#projects"
             onClick={() => {
-              document.getElementById('projects').scrollIntoView({
-                behavior: 'smooth',
+              document.getElementById("projects").scrollIntoView({
+                behavior: "smooth",
               });
             }}
           >
@@ -50,8 +50,8 @@ const HomeHero = () => {
             to="/#about"
             className="scrollDown"
             onClick={() => {
-              document.getElementById('about').scrollIntoView({
-                behavior: 'smooth',
+              document.getElementById("about").scrollIntoView({
+                behavior: "smooth",
               });
             }}
           >

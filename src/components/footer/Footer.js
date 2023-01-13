@@ -1,5 +1,5 @@
-import React from 'react';
-import './Footer.css';
+import React from "react";
+import "./Footer.css";
 
 const Footer = () => {
   return (
@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="footerContainer">
         <div className="footerLeft">
           <h2>JOSHUA ALVAREZ</h2>
-          <p>A full-stack web developer who loves what he does</p>
+          <p>A full-stack dev who loves what he does</p>
         </div>
         <div className="footerRight">
           <h2>SOCIALS</h2>
