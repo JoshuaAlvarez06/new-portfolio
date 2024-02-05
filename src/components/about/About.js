@@ -27,16 +27,14 @@ const About = () => {
           <div className="aboutLeft" data-aos="fade-right">
             <h3 className="contentHeading">Get to know me</h3>
             <p>
-              I have been around technology all my life, and I have grown to
-              have a deep love for it. Since beginning to code, it has become my
-              passion. I, now, focus on full-stack development. I am a very
-              young, quick learner who is always looking to add more to my set
-              of knowledge.
-            </p>
-            <p>
-              As a {age} year old developer, I am excited to learn and add more
-              to my skill set every single day to become the best developer I
-              can be. Never stop learning!
+              Welcome to my portfolio! I'm a {age}-year-old Full Stack Engineer
+              with a track record of creating impactful applications and
+              websites. My expertise spans both front-end and back-end
+              development, and I take pride in delivering solutions that go
+              beyond functionality to generate substantial revenue for
+              companies. I've been part of several projects that have
+              contributed to millions in revenue, showcasing not just technical
+              skills but a keen understanding of business objectives.
             </p>
             <Link
               className="contactBtn"
@@ -53,16 +51,11 @@ const About = () => {
           <div className="aboutRight" data-aos="fade-left">
             <h3 className="contentHeading">Skills</h3>
             <div className="skills">
-              <div className="skill">React</div>
-              <div className="skill">Next.js</div>
-              <div className="skill">JS / TS</div>
-              <div className="skill">HTML</div>
-              <div className="skill">CSS</div>
-              <div className="skill">Git</div>
-              <div className="skill">Node.js</div>
-              <div className="skill">Express.js</div>
-              <div className="skill">PostgreSQL</div>
-              <div className="skill">Email Dev.</div>
+              {SKILLS.map((skill) => (
+                <div className="skill" key={skill}>
+                  {skill}
+                </div>
+              ))}
             </div>
           </div>
         </div>
@@ -70,5 +63,19 @@ const About = () => {
     </section>
   );
 };
+
+const SKILLS = [
+  "React",
+  "React Native",
+  "Next.js",
+  "JS / TS",
+  "Node.js",
+  "Express.js",
+  "PostgreSQL",
+  "Email Dev.",
+  "Solidity",
+  "HTML",
+  "CSS",
+];
 
 export default About;
